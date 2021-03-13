@@ -1,0 +1,41 @@
+{
+  "name": "channel-master",
+  "version": "5.0.2",
+  "description": "The official repository of the Channel Master Discord Bot. A Voice Master clone, just way way faster and more advanced offering 100% customizability and 3 Setups!",
+  "main": "shard.js",
+  "dependencies": {
+    "enmap": "^5.8.4",
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node shard.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milrato-Development/Channel-Master.git"
+  },
+  "keywords": [
+    "application",
+    "apply",
+    "discord",
+    "bot",
+    "discordjs",
+    "developer",
+    "Milrato",
+    "easy",
+    "easiest",
+    "advanced",
+    "good",
+    "fast",
+    "emojis",
+    "reactions"
+  ],
+  "author": "Tomato#6966",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Milrato-Development/Channel-Master/issues"
+  },
+  "homepage": "https://milrato.eu"
+}
