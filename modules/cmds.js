@@ -95,8 +95,8 @@ module.exports = client => {
           return message.reply(new Discord.MessageEmbed()
             .setColor(ee.color)
             .setTitle("These are all Command Groups!")
-            .setURL("https://youtu.be/X2yqNtd3COE")
-            .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/X2yqNtd3COE)\n\n*Enter the right Category, to see help for them* Example: \`${prefix}help voice\`\n[\`INVITE ME\`](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot) | [\`Support Server\`](https://discord.gg/wvCp7q88G3) | [\`Website\`](https://milrato.eu) | Developer: \`Tomato#6966\``)
+            .setURL("https://youtu.be/zNE8insVgOA")
+            .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/zNE8insVgOA)\n\n*Enter the right Category, to see help for them* Example: \`${prefix}help voice\`\n[\`INVITE ME\`](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot) | [\`Support Server\`](https://discord.gg/wvCp7q88G3) | [\`Website\`](https://milrato.eu) | Developer: \`Tomato#6966\``)
             .addField(`\`${prefix}help general\``, "Shows all general/Information Commands!", true)
             .addField(`\`${prefix}help setup\``, "> *Shows you all Setup related Commands (how to create a setup, etc.)*", true)
             .addField(`\`${prefix}help voice\``, "> *Shows you all Voice Channel (hosted) related Commands*", true)
@@ -106,16 +106,16 @@ module.exports = client => {
             return message.reply(new Discord.MessageEmbed()
               .setColor(ee.color)
               .setTitle("These are all cmds!")
-              .setURL("https://youtu.be/X2yqNtd3COE")
-              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/X2yqNtd3COE)`)
+              .setURL("https://youtu.be/zNE8insVgOA")
+              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/zNE8insVgOA)`)
               .addField(`\`${prefix}help\``, "Shows all available Commands!", true)
               .addField(`\`${prefix}add\``, "> *[Invite](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot) the Bot!*", true)
               .addField(`\`${prefix}support\``, "> *Sends you a Link for the [SUPPORT SERVER](https://discord.gg/wvCp7q88G3) of the Bot!*", true)
               .addField(`\`${prefix}ping\``, "> *Shows the ping of the Bot!*", true)
               .addField(`\`${prefix}uptime\``, "> *Shows the uptime of the Bot!*", true)
               .addField(`\`${prefix}info\``, "> *Shows Information & Stats of the Bot*", true)
-              .addField(`\`${prefix}tutorial\``, "> *Gives you a Link to the [Tutorial Video](https://youtu.be/X2yqNtd3COE)*", true)
-              .addField(`\`${prefix}source\``, "> *Gives you a Link to the [Source Code on Github](https://youtu.be/X2yqNtd3COE)*", true)
+              .addField(`\`${prefix}tutorial\``, "> *Gives you a Link to the [Tutorial Video](https://youtu.be/zNE8insVgOA)*", true)
+              .addField(`\`${prefix}source\``, "> *Gives you a Link to the [Source Code on Github](https://youtu.be/zNE8insVgOA)*", true)
               .setFooter(ee.footertext, ee.footericon)
             )
             break;
@@ -123,8 +123,8 @@ module.exports = client => {
             return message.reply(new Discord.MessageEmbed()
               .setColor(ee.color)
               .setTitle("These are all cmds!")
-              .setURL("https://youtu.be/X2yqNtd3COE")
-              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/X2yqNtd3COE)`)
+              .setURL("https://youtu.be/zNE8insVgOA")
+              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/zNE8insVgOA)`)
               .addField(`\`${prefix}setup\` --> Follow steps`, "> *Creates a temp. Voice Channel Setup*")
               .addField(`\`${prefix}setupname <ChannelName>\``, "> *Changes the Created temp. Voice Channel's Name!* \n**Note:** *Having \`{user}\` in your Channel name, will replace with the username!*\n" + `Example: \`${prefix}setupname {user}'s VC\``)
               .addField("\u200b", "\u200b")
@@ -140,8 +140,8 @@ module.exports = client => {
             return message.reply(new Discord.MessageEmbed()
               .setColor(ee.color)
               .setTitle("These are all cmds!")
-              .setURL("https://youtu.be/X2yqNtd3COE")
-              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/X2yqNtd3COE)\n\n** ALL OF THOSE COMMANDS SOON!!!**`)
+              .setURL("https://youtu.be/zNE8insVgOA")
+              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/zNE8insVgOA)\n\n** ALL OF THOSE COMMANDS SOON!!!**`)
               .addField(`\`${prefix}lock\``, "Locks the Voice Channel (makes it Private)!", true)
               .addField(`\`${prefix}unlock\``, "> *Unlocks the Voice Channel (makes it public)!*", true)
               .addField(`\`${prefix}kick @User\``, "> *Kicks a User out of Your Channel!*", true)
@@ -161,8 +161,8 @@ module.exports = client => {
             return message.reply(new Discord.MessageEmbed()
               .setColor(ee.color)
               .setTitle("These are all Command Groups!")
-              .setURL("https://youtu.be/X2yqNtd3COE")
-              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/X2yqNtd3COE)\n\n*Enter the right Category, to see help for them* Example: \`${prefix}voice\``)
+              .setURL("https://youtu.be/zNE8insVgOA")
+              .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/zNE8insVgOA)\n\n*Enter the right Category, to see help for them* Example: \`${prefix}voice\``)
               .addField(`\`${prefix}general\``, "Shows all general/Information Commands!", true)
               .addField(`\`${prefix}setup\``, "> *Shows you all Setup related Commands (how to create a setup, etc.)*", true)
               .addField(`\`${prefix}voice\``, "> *Shows you all Voice Channel (hosted) related Commands*", true)
@@ -187,11 +187,94 @@ module.exports = client => {
           .setColor(ee.color)
           .setFooter(ee.footertext, ee.footericon)
           .setAuthor(`${client.user.username} Support`, client.user.displayAvatarURL(), "https://milrato.eu")
-          .setDescription("[\`Join to Support Server\`](https://discord.gg/wvCp7q88G3) to gain help! OR watch the [Tutorial Video](https://youtu.be/X2yqNtd3COE)")
+          .setDescription("[\`Join to Support Server\`](https://discord.gg/wvCp7q88G3) to gain help! OR watch the [Tutorial Video](https://youtu.be/zNE8insVgOA)")
         )
         return;
       } else if (cmd === "info" || cmd === "stats" || cmd === "stat") {
 
+        cpuStat.usagePercent(function (e, percent, seconds) {
+          try{
+            if (e) {
+                return console.log(String(e.stack).red);
+            }
+            let connectedchannelsamount = 0;
+            let guilds = client.guilds.cache.map((guild) => guild);
+            for (let i = 0; i < guilds.length; i++) {
+                if (guilds[i].me.voice.channel) connectedchannelsamount += 1;
+            }
+
+            const promises = [
+              client.shard.fetchClientValues('guilds.cache.size'),
+              client.shard.broadcastEval('this.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)')
+            ];
+
+            return Promise.all(promises)
+              .then(async results => {
+                let totalSetups = 0;
+                totalSetups += client.settings.filter(s => s.channel && s.channel.length > 1).size;
+                totalSetups += client.settings2.filter(s => s.channel && s.channel.length > 1).size;
+                totalSetups += client.settings3.filter(s => s.channel && s.channel.length > 1).size;
+
+                const totalGuilds = results[0].reduce((acc, guildCount) => acc + guildCount, 0);
+                const totalMembers = results[1].reduce((acc, memberCount) => acc + memberCount, 0);
+                let guilds = [], users = [];
+                let countertest = 0;
+                for(let item of results[0]) guilds.push(`Shard #${countertest++}: ${item} Guilds`)
+                countertest = 0;
+                  for(let item of results[1]) users.push(`Shard #${countertest++}: ${item} Users`)
+                const botinfo = new Discord.MessageEmbed()
+                    .setAuthor(client.user.username, client.user.displayAvatarURL())
+                    .setTitle("__**Stats:**__")
+                    .setColor(ee.color)
+                    .addField("⏳ Memory Usage", `\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}/ ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB\``, true)
+                    .addField("⌚️ Uptime ", `${duration(client.uptime)}`, true)
+                    .addField("\u200b", `\u200b`, true)
+                    .addField("📁 Users", `\`Total: ${totalMembers} Users\`\n\`\`\`fix\n${users.join("\n")}\n\`\`\``, true)
+                    .addField("📁 Servers", `\`Total: ${totalGuilds} Servers\`\n\`\`\`fix\n${guilds.join("\n")}\n\`\`\``, true)
+                    .addField("\u200b", `\u200b`, true)
+                    .addField("📁 Voice-Channels", `\`${client.channels.cache.filter((ch) => ch.type === "voice").size}\``, true)
+                    .addField("⚙️ Setups", `\`${totalSetups} Setups\` created`, true)
+                    .addField("\u200b", `\u200b`, true)
+                    .addField("👾 Discord.js", `\`v${Discord.version}\``, true)
+                    .addField("🤖 Node", `\`${process.version}\``, true)
+                    .addField("\u200b", `\u200b`, true)
+                    .addField("🤖 CPU", `\`\`\`md\n${os.cpus().map((i) => `${i.model}`)[0]}\`\`\``)
+                    .addField("🤖 CPU usage", `\`${percent.toFixed(2)}%\``, true)
+                    .addField("🤖 Arch", `\`${os.arch()}\``, true)
+                    .addField("\u200b", `\u200b`, true)
+                    .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
+                    .addField("API Latency", `\`${client.ws.ping}ms\``, true)
+                    .setFooter("Coded by:    Tomato#6966");
+                message.channel.send(botinfo);
+              })
+              .catch(console.error);
+            }catch{
+              const botinfo = new Discord.MessageEmbed()
+                  .setAuthor(client.user.username, client.user.displayAvatarURL())
+                  .setTitle("__**Stats:**__")
+                  .setColor(ee.color)
+                  .addField("⏳ Memory Usage", `\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}/ ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB\``, true)
+                  .addField("⌚️ Uptime ", `${duration(client.uptime)}`, true)
+                  .addField("\u200b", `\u200b`, true)
+                  .addField("📁 Users", `\`Total: ${client.users.cache.size} Users\``, true)
+                  .addField("📁 Servers", `\`Total: ${client.guilds.cache.size} Servers\``, true)
+                  .addField("\u200b", `\u200b`, true)
+                  .addField("📁 Voice-Channels", `\`${client.channels.cache.filter((ch) => ch.type === "voice").size}\``, true)
+                  .addField("⚙️ Setups", `\`${totalSetups} Setups\` created`, true)
+                  .addField("\u200b", `\u200b`, true)
+                  .addField("👾 Discord.js", `\`v${Discord.version}\``, true)
+                  .addField("🤖 Node", `\`${process.version}\``, true)
+                  .addField("\u200b", `\u200b`, true)
+                  .addField("🤖 CPU", `\`\`\`md\n${os.cpus().map((i) => `${i.model}`)[0]}\`\`\``)
+                  .addField("🤖 CPU usage", `\`${percent.toFixed(2)}%\``, true)
+                  .addField("🤖 Arch", `\`${os.arch()}\``, true)
+                  .addField("\u200b", `\u200b`, true)
+                  .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
+                  .addField("API Latency", `\`${client.ws.ping}ms\``, true)
+                  .setFooter("Coded by:    Tomato#6966");
+              message.channel.send(botinfo);
+            }
+        });
         function duration(ms) {
           const sec = Math.floor((ms / 1000) % 60).toString()
           const min = Math.floor((ms / (1000 * 60)) % 60).toString()
@@ -199,127 +282,6 @@ module.exports = client => {
           const days = Math.floor((ms / (1000 * 60 * 60 * 24)) % 60).toString()
           return `\`${days.padStart(1, '0')} Days\`, \`${hrs.padStart(2, '0')} Hours\`, \`${min.padStart(2, '0')} Minutes\`, \`${sec.padStart(2, '0')} Seconds\``
         }
-        let totalMembers = client.guilds.cache.reduce((c, g) => c + g.memberCount, 0);
-
-        let totalSetups = 0;
-        totalSetups += client.apply.filter(s => s.channel_id && s.channel_id.length > 1).size;
-        totalSetups += client.apply2.filter(s => s.channel_id && s.channel_id.length > 1).size;
-        totalSetups += client.apply3.filter(s => s.channel_id && s.channel_id.length > 1).size;
-
-        let days = Math.floor(client.uptime / 86400000);
-        let hours = Math.floor(client.uptime / 3600000) % 24;
-        let minutes = Math.floor(client.uptime / 60000) % 60;
-        let seconds = Math.floor(client.uptime / 1000) % 60;
-        const embed = new Discord.MessageEmbed()
-          .setAuthor(
-            `Information about the ${client.user.username} Bot`,
-            client.user.displayAvatarURL(), "https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot"
-          )
-          .setColor(ee.color)
-          .addFields({
-            name: '🤖 Bot tag',
-            value: `**\`${client.user.tag}\`**`,
-            inline: true
-          }, {
-            name: '👾 Version',
-            value: `**\`v4.3.6\`**`,
-            inline: true
-          }, {
-            name: "👻 Command prefix",
-            value: `**\`e!\`**`,
-            inline: true
-          }, {
-            name: '⏱ Time since last restart',
-            value: `**\`${process.uptime().toFixed(2)}s\`**`,
-            inline: true
-          }, {
-            name: '🕐 Uptime',
-            value: `**\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\`**`,
-            inline: true
-          }, {
-            name: '📁 Server count',
-            value: `**\`${client.guilds.cache.size}\`**`,
-            inline: true
-          }, {
-            name: '📂 Total members',
-            value: `**\`${totalMembers}\`**`,
-            inline: true
-          }, {
-            name: '⚙️ Setups created',
-            value: `**\`${totalSetups}\`**`,
-            inline: true
-          })
-          .addField("***BOT BY:***", `
-            >>> <@442355791412854784> \`Tomato#6966\`[\`Website\`](https://milrato.eu)
-              `)
-          .addField("***SUPPORT:***", `
-              >>> [\`Server\`](https://discord.gg/wvCp7q88G3) | [\`milrato - Website\`](https://milrato.eu) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot)
-                `)
-
-        // oldembed: message.channel.send(embed)
-        cpuStat.usagePercent(function(e, percent, seconds) {
-          if (e) {
-            return console.log(String(e.stack).red);
-          }
-          let connectedchannelsamount = 0;
-          let guilds = client.guilds.cache.map((guild) => guild);
-          for (let i = 0; i < guilds.length; i++) {
-            if (guilds[i].me.voice.channel) connectedchannelsamount += 1;
-          }
-
-          const promises = [
-            client.shard.fetchClientValues('guilds.cache.size'),
-            client.shard.broadcastEval('this.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)')
-          ];
-
-          return Promise.all(promises)
-            .then(async results => {
-              const totalGuilds = results[0].reduce((acc, guildCount) => acc + guildCount, 0);
-              const totalMembers = results[1].reduce((acc, memberCount) => acc + memberCount, 0);
-              connectedchannelsamount += 300;
-              if (connectedchannelsamount > Number(totalGuilds)) connectedchannelsamount = Number(totalGuilds);
-              let guilds = [],
-                users = [];
-              let countertest = 0;
-              for (let item of results[0]) guilds.push(`Shard #${countertest++}: ${item} Guilds`)
-              countertest = 0;
-              for (let item of results[1]) users.push(`Shard #${countertest++}: ${item} Users`)
-              const botinfo = new Discord.MessageEmbed()
-                .setAuthor(
-                  `Information about the ${client.user.username} Bot`,
-                  client.user.displayAvatarURL(), "https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot"
-                )
-                .setColor(ee.color)
-                .addField("⏳ Memory Usage", `\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}/ ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB\``, true)
-                .addField("⌚️ Uptime ", `${duration(client.uptime)}`, true)
-                .addField("\u200b", `\u200b`, true)
-                .addField("📁 Users", `\`Total: ${totalMembers} Users\`\n\`\`\`fix\n${users.join("\n")}\n\`\`\``, true)
-                .addField("📁 Servers", `\`Total: ${totalGuilds} Servers\`\n\`\`\`fix\n${guilds.join("\n")}\n\`\`\``, true)
-                .addField("\u200b", `\u200b`, true)
-                .addField("📁 Voice-Channels", `\`${client.channels.cache.filter((ch) => ch.type === "voice").size}\``, true)
-                .addField("📁 Connected Channels", `\`${connectedchannelsamount}\``, true)
-                .addField("\u200b", `\u200b`, true)
-                .addField("👾 Discord.js", `\`v${Discord.version}\``, true)
-                .addField("🤖 Node", `\`${process.version}\``, true)
-                .addField("\u200b", `\u200b`, true)
-                .addField("🤖 CPU", `\`\`\`md\n${os.cpus().map((i) => `${i.model}`)[0]}\`\`\``)
-                .addField("🤖 CPU usage", `\`${percent.toFixed(2)}%\``, true)
-                .addField("🤖 Arch", `\`${os.arch()}\``, true)
-                .addField("\u200b", `\u200b`, true)
-                .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
-                .addField("API Latency", `\`${client.ws.ping}ms\``, true)
-                .addField("⚙️ Setups created", `\`${totalSetups} Setups\``, true)
-                .addField("***BOT BY:***", `
-                    >>> <@442355791412854784> \`Tomato#6966\`[\`Website\`](https://milrato.eu)
-                      `)
-                .addField("***SUPPORT:***", `
-                      >>> [\`Server\`](https://discord.gg/wvCp7q88G3) | [\`milrato - Website\`](https://milrato.eu) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot)
-                        `)
-                .setFooter("Coded by:    Tomato#6966");
-              message.channel.send(botinfo);
-            })
-            .catch(console.error);
-        });
         return;
       } else if (cmd === "uptime") {
         function duration(ms) {
@@ -350,11 +312,11 @@ module.exports = client => {
           .setFooter(ee.footertext, ee.footericon)
           .setAuthor(`${client.user.username}'s' Source Code`, client.user.displayAvatarURL(), "https://milrato.eu")
           .setTitle(`This Bot is made by \`Tomato#6966\` and **this** is the Source Code link to this Bot`)
-          .setURL("https://github.com/Milrato-Development/Easiest-Application")
+          .setURL("https://github.com/Milrato-Development/Channel-Master")
           .addField("Discord.js: ", "[\`v12.5.1\`](https://discord.js.org)", true)
           .addField("Node.js: ", "[\`v15.3.4\`](https://nodejs.org/en/)", true)
           .addField("Enmap: ", "[\`v5.8.4\`](https://enmap.evie.dev/api)", true)
-          .addField("Source Code. ", "Don't just use the source for yourself,... please [invite](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot) me too![\`Click here\`](https://github.com/Milrato-Development/Easiest-Application)")
+          .addField("Source Code. ", "Don't just use the source for yourself,... please [invite](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot) me too![\`Click here\`](https://github.com/Milrato-Development/Channel-Master)")
 
         )
         return;
@@ -1262,16 +1224,16 @@ module.exports = client => {
     channel.send(new Discord.MessageEmbed()
       .setColor(ee.color)
       .setTitle("These are all cmds!")
-      .setURL("https://youtu.be/X2yqNtd3COE")
-      .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/X2yqNtd3COE)`)
+      .setURL("https://youtu.be/zNE8insVgOA")
+      .setDescription(`PREFIX: \`${prefix}\` | [Click here - Tutorial Video](https://youtu.be/zNE8insVgOA)`)
       .addField(`\`help\``, "Shows all available Commands!", true)
       .addField(`\`add\``, "> *[Invite](https://discord.com/api/oauth2/authorize?client_id=761247967859965982&permissions=8&scope=bot) the Bot!*", true)
       .addField(`\`support\``, "> *Sends you a Link for the [SUPPORT SERVER](https://discord.gg/wvCp7q88G3) of the Bot!*", true)
       .addField(`\`ping\``, "> *Shows the ping of the Bot!*", true)
       .addField(`\`uptime\``, "> *Shows the uptime of the Bot!*", true)
       .addField(`\`info\``, "> *Shows Information & Stats of the Bot*", true)
-      .addField(`\`tutorial\``, "> *Gives you a Link to the [Tutorial Video](https://youtu.be/X2yqNtd3COE)*", true)
-      .addField(`\`source\``, "> *Gives you a Link to the [Source Code on Github](https://youtu.be/X2yqNtd3COE)*", true)
+      .addField(`\`tutorial\``, "> *Gives you a Link to the [Tutorial Video](https://youtu.be/zNE8insVgOA)*", true)
+      .addField(`\`source\``, "> *Gives you a Link to the [Source Code on Github](https://youtu.be/zNE8insVgOA)*", true)
 
       .addField("\u200b", "\u200b")
       .addField(`\`setup\` --> Follow steps`, "> *Set ups the Application System, maximum of 24 Questions!*")
@@ -1290,7 +1252,7 @@ module.exports = client => {
       .setDescription(`To get started, simply type: \`${prefix}setup\` and follow the steps!`)
       .setFooter(ee.footertext, ee.footericon)
     )
-    channel.send("**Here is a TUTORIAL VIDEO:**\nhttps://youtu.be/X2yqNtd3COE")
+    channel.send("**Here is a TUTORIAL VIDEO:**\nhttps://youtu.be/zNE8insVgOA")
   })
 
 }
