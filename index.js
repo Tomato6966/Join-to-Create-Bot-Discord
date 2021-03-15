@@ -5,8 +5,12 @@ const colors = require("colors");
 const client = new Discord.Client({
   fetchAllMembers: false,
   restTimeOffset: 0,
+  disableMentions: "all",
+  messageCacheMaxSize: 10,
+  messageEditHistoryMaxSize: 10,
   restWsBridgetimeout: 100,
   disableEveryone: true,
+  shards: "auto",
   partials: ['MESSAGE', 'CHANNEL', 'REACTION']
 });
 //import the config.json file

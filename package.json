@@ -4,10 +4,11 @@
   "description": "The official repository of the Channel Master Discord Bot. A Voice Master clone, just way way faster and more advanced offering 100% customizability and 3 Setups!",
   "main": "shard.js",
   "dependencies": {
-    "enmap": "^5.8.4",
-    "discord.js": "^12.5.1"
+    "colors": "^1.4.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.5.1",
+    "enmap": "^5.8.4"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node shard.js"
