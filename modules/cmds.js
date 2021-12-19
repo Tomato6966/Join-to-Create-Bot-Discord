@@ -9,23 +9,23 @@ module.exports = client => {
    * ////////////////////////////////////////// *
    */
   client.category = {
-    "general": ["ping", "support", "server", "tutorial", "video", "info", "stats", "stat", "uptime", "add", "invite", "source", "github"],
-    "voice": ["lock", "unlock", "kick", "vcinvite", "vcadd", "voiceinvite", "voiceadd", "ban", "unban", "trust", "untrust", "limit", "bitrate", "promote"],
+    "general": ["ping", "support", "server", "tutorial", "video", "info", "stats", "stat", "uptime", "add", "invite", "source", "github", "prefix"],
+    "voice": ["lock", "unlock", "kick", "vcinvite", "vcadd", "voiceinvite", "voiceadd", "ban", "unban", "trust", "untrust", "rename", "limit", "bitrate", "promote"],
     "setup": ["setup", "setupname", "setup2", "setup2name", "setup3", "setup3name"]
-  }
+  };
   /** ////////////////////////////////////////// *
    * LOG EVERY TIME THE BOT GETS READY and STATUS CHANGE
    * ////////////////////////////////////////// *
    */
   client.on("ready", (bah) => {
     require("../modules/events/ready")(client)
-  })
+  });
 
   /** ////////////////////////////////////////// *
    * LOG EVERY SINGLE MESSAGE
    * ////////////////////////////////////////// *
    */
-  client.on("message", (message) => {
+  client.on("messageCreate", (message) => {
     require("../modules/events/message")(client, message)
   });
 
@@ -35,8 +35,7 @@ module.exports = client => {
    */
   client.on("guildCreate", (guild) => {
     require("../modules/events/guildCreate")(client, guild)
-  })
+  });
 
-}
-
-
+  console.log(` :: ⬜️ Module: cmds`)
+};
