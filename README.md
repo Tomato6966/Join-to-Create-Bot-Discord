@@ -5,7 +5,7 @@
 
 ## Installation | How to use the Bot
 
- **1.** Install [node.js v12+](https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode) or higher
+ **1.** Install [node.js v16.6.0+](https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode) or higher
 
  **2.** Download this repo and unzip it    |    or git clone it
 
@@ -13,7 +13,7 @@
 
  **4** Fill in the parameters, RIGHT in `config.json`!
 
- **5.** start the bot with **`node shard.js`** / **node index.js** if you dont wanna shard it!
+ **5.** start the bot with **`node index.js`**
 
 #### **NOTE:**
 
